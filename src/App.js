@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { questions } from './questions';
-
+import logo from './logo-color.png';
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredQuestions, setFilteredQuestions] = useState(questions);
@@ -35,7 +35,8 @@ function App() {
 
   return (
     <div className='body'>
-      <input type="text" placeholder="Search" value={searchTerm} onChange={handleSearch} />
+      <div className='logo-div'><img src ={logo} className='logo' alt='Logo for Code Brew ATL' /> </div>
+      <input type="text" placeholder="Search" value={searchTerm} onChange={handleSearch} className='search' />
       {filteredQuestions.map(question => (
         <div className='questions' key={question.id}>
           <div className='category'>{question.category}</div>

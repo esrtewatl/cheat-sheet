@@ -1,8 +1,36 @@
-* Set overall body margin and padding */
-.body {
-  margin: 20px;
-  padding: 20px;
-  background: linear-gradient(130deg, rgba(89,108,255,1) 29%, rgba(89,202,255,1) 61%);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.logo-div{
+  display: inline;
+  width: 15em;
+  margin-bottom: 3em !important;
+}
+.logo{
+  display: inline-block;
+  width: 15em;
+}
+.search{
+  margin: auto;
+  margin-bottom: 6em;
+  height: 4em;
+  width: 28em;
+  font-size: 25px;
+  color: #FCE44D;
+}
+input{
+  background-color: #2C71DF;
+  font-size: 20px !important;
+ 
+}
+input::placeholder {
+  color:  #FCE44D;
 }
 
 /* Define column styles */
@@ -19,12 +47,20 @@
   clear: both;
   display: table;
 }
+div{
+  background-color: black;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+
+}
 
 /* Style questions */
 .questions {
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+border: solid;
   padding: 10px;
+  border-color: goldenrod;
+  font-size: 22px;
 }
 
 /* Style question headers */
