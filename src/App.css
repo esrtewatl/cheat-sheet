@@ -65,12 +65,23 @@ div{
   background-color: black;
   color: white;
   font-family: 'Abril Fatface', cursive;
+ 
 
+}
+.category{
+  font-size: 1.7em !important;
+  font-style: italic;
+  color: #2C71DF;
+  text-shadow: whitesmoke 2px 2px;
+}
+.question{
+  color: red !important;
+  font-size: 1.3em !important;
 }
 
 /* Style questions */
 .questions {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 border: solid;
   padding: 10px;
   border-color: goldenrod;
@@ -81,8 +92,9 @@ border: solid;
 /* Style question headers */
 .questions h2 {
   margin-top: 0;
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-weight: bold;
+
   margin-bottom: 10px;
 }
 
@@ -90,5 +102,9 @@ border: solid;
 .questions .answers {
   margin-bottom: 0;
   font-size: 1.1em;
+}
+.answers{
+  line-height: 25px;
+
 }
 
