@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+* Set overall body margin and padding */
+.body {
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(130deg, rgba(89,108,255,1) 29%, rgba(89,202,255,1) 61%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Define column styles */
+.column {
+  width: 50%;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Clear floats after columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style questions */
+.questions {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style question headers */
+.questions h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style answer paragraphs */
+.questions .answers {
+  margin-bottom: 0;
+  font-size: 1.1em;
 }
+
