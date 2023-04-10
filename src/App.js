@@ -35,7 +35,8 @@ function App() {
 
   return (
     <div className='body'>
-      <div className='logo-div'><img src ={logo} className='logo' alt='Logo for Code Brew ATL' /> </div>
+      <div className='logo-div'><img src ={logo} className='logo' alt='Logo for Code Brew ATL' /></div>
+      <h1>Top Interview Questions For Front End Developers</h1> 
       <input type="text" placeholder="Search" value={searchTerm} onChange={handleSearch} className='search' />
       {filteredQuestions.map(question => (
         <div className='questions' key={question.id}>
