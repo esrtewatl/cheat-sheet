@@ -99,82 +99,82 @@ export const questions = [
     id: 16 ,
     category: 'HTTP',
     question:'Name the major HTTP requests',
-    answer: 'Get, Head, Trace, Post, Put and Patch ',
-  }
+    answer: 'Get, Head, Trace, Post, Put and Patch '
+  },
+  {
+    id: 17 ,
+    category: 'React',
+    question:'What are pure components?',
+    answer: 'Components that dont produce any side effects. For the same input, it returns the same output'
+  },
+  {
+    id: 18  ,
+    category: 'React',
+    question:'What are the different lifecycle methods that you know?',
+    answer: 'componentDidMount, shouldComponentUpdate, componentWillUnmount. There’s also the deprecated componentWillMount, componentWillReceiveProps, and componentWillUpdate. Others include: getDerivedStateFromProps, and getSnapshotBeforeUpdate '
+  },
+  {
+    id: 19 ,
+    category: 'React',
+    question:'How did you go about writing your unit tests? What testing frameworks have you used in the past? ',
+    answer: ' focus on testing how different components interact with each other, and end-to-end tests, which test the entire application from a users perspective. Jest is one of the most popular choices for React developers, as it comes with a number of features specifically tailored to testing React components, such as snapshot testing and support for mocking and stubbing'
+  },
+  {
+    id: 20  ,
+    category: 'GitHub',
+    question:'What kind of version control were you using?',
+    answer: 'it involves creating a repository, cloning it to your local machine, creating a branch, making changes, committing and pushing changes to GitHub, creating a pull request, reviewing and merging changes. Its important to follow best practices such as creating small, focused commits and frequently pulling changes from the main branch.'
+  },
+  {
+    id: 21 ,
+    category: 'React',
+    question:'What is dependency injection?',
+    answer: 'dependency injection means passing the required dependencies as props to a component from its parent component.'
+  },
+  {
+    id: 22 ,
+    category: 'Debugging',
+    question:'How would you go about debugging a website?',
+    answer: 'Some of the most common methods include using the browser’s developer tools, using an automated quality assurance suite, debugging the code line-by-line,'
+  },
+  {
+    id: 23 ,
+    category: 'Capatibily',
+    question:'What are some common issues that you have faced with cross-browser compatibility?',
+    answer: 'different browsers rendering CSS differently, different browsers supporting different HTML and CSS features, and different browsers having different levels of support for standards.'
+  },
+  {
+    id: 24 ,
+    category: 'Work Enviroment',
+    question:'What are some of the common front-end development challenges that you have faced?',
+    answer: 'Some of the most common front-end development challenges include cross-browser compatibility issues, dealing with legacy code, and optimizing website performance. Another issue developers frequently run into (but unfortunately less frequently address) is the ability to make their code ADA compliant.'
+  },
+  {
+    id: 25 ,
+    category: 'HTML',
+    question:'What are the differences between HTML5 and HTML4?',
+    answer: 'HTML5, the latest version of HTML, includes several new elements and attributes. It also supports audio and video playback and introduces support for local storage.'
+  },
+  {
+    id: 26 ,
+    category: 'Error',
+    question:'How would you create a custom error page?',
+    answer: 'A custom error page is a page that is displayed when an error occurs. To create a custom error page, you would first need to create a file called "error.php" or "error.html." Then, you would need to edit the .htaccess file to point to the custom error page.'
+  },
+  {
+    id: 27,
+    category: 'Javascript',
+    question:' What is the difference between an anonymous function and a named function?',
+    answer: 'A named function can be referenced in the future from anywhere in the code, whereas an anonymous function cannot — although it will run when it occurs in-line.'
+  },
+  {
+    id: 28,
+    category: 'React',
+    question:'What is an event loop?',
+    answer: 'An event loop is the foundation of real-time JavaScript response. It runs at intervals to test for an event. You will need to initiate event loops to scan for user behaviors like clicks.'
+  },
   // {
-  //   id: 17 ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
-  //   category: '',
-  //   question:'',
-  //   answer: '',
-  // }
-  // {
-  //   id:  ,
+  //   id: 29 ,
   //   category: '',
   //   question:'',
   //   answer: '',

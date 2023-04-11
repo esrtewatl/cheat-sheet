@@ -30,7 +30,7 @@ h1{
 }
 .search{
   margin: auto;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
   height: 4em;
   width: 28em;
   font-size: 25px;
@@ -65,15 +65,25 @@ input::placeholder {
 div{
   background-color: black;
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
  
 
 }
+.reset{
+  width: 8em !important;
+  height: 4em;
+  margin-bottom: 2em;
+  margin: auto;
+  font-size: 18px;
+  background-color: #F41E1E;
+}
 .category{
+  text-align: center;
   font-size: 1.7em !important;
   font-style: italic;
   color: #2C71DF;
   text-shadow: whitesmoke 2px 2px;
+  background-color: #FCE44D;
 }
 .question{
   color: red !important;
@@ -82,12 +92,16 @@ div{
 
 /* Style questions */
 .questions {
+  width: 50%;
+  margin:auto;
+  margin-top: 2em;
   margin-bottom: 30px;
 border: solid;
   padding: 10px;
   border-color: goldenrod;
   font-size: 22px;
   border-radius: 1em;
+  letter-spacing: 1.8px;
 }
 
 /* Style question headers */
